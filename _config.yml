@@ -3,4 +3,67 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins: 
     - jekyll-include-cache
 
+include: ["_pages"]
+
+title: JustCode.be
+description: The personal website of Johan Smet.
+
+paginate: 5
+paginate_path: /page:num/
+
+# Site Author
+author:
+    name:   "Johan Smet"
+    bio:    "Just a long-haired, sci-fi-loving, software engineer."
+    avatar: "/assets/images/avatar.png"
+    location: "Belgium"
+    links:
+        - label: "E-mail"
+          icon: "fa fa-fw fa-envelope"
+          url: "mailto:johan.smet@justcode.be"
+        - label: "Twitter"
+          icon: "fab fa-fw fa-twitter-square"
+          url: "https://twitter.com/JohanSmet_BE"
+        - label: "GitHub"
+          icon: "fab fa-fw fa-github"
+          url: "https://github.com/JohanSmet"
+
+
+# Collections
+collections:
+    projects:
+        output: true
+        permalink: /:collection/:path/
+
+# Front Matter  Defaults
+defaults:
+    # _pages
+    - scope:
+        path: ""
+        type: pages
+      values:
+        layout: single
+        author_profile: true
+
+    #_posts
+    - scope:
+        path: ""
+        type: posts
+      values:
+        layout: single
+        author_profile: true
+        read_time: true
+        comments: false
+        share: false
+        related: true
+
+    # portfolio
+    - scope:
+        path: ""
+        type: projects
+      values:
+        layout: single
+        author_profile: false
+        share: false
+
 # vi: set ts=4 sw=4:
