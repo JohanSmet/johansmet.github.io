@@ -2,6 +2,12 @@
 title: Kinect Webcam
 layout: single
 classes: wide
+sidebar:
+  - text: Visit the project's repo at
+  - text: <i class="fab fa-fw fa-github" aria-hidden="true"></i> [GitHub](https://github.com/JohanSmet/kinect_webcam)
+  - text: <iframe src="https://ghbtns.com/github-btn.html?user=JohanSmet&repo=kinect_webcam&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="170px" height="20px" style="margin:0.5em 0"></iframe>
+  - text: <iframe src="https://ghbtns.com/github-btn.html?user=JohanSmet&repo=kinect_webcam&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px" style="margin:0.5em 0"></iframe>
+  - text: <iframe src="https://ghbtns.com/github-btn.html?user=JohanSmet&repo=kinect_webcam&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="20px" style="margin:0.5em 0"></iframe>
 ---
 A DirectShow-filter that turns your Kinect into a webcam. Works with Kinect for Windows v2 and the original Kinect for Windows.
 
