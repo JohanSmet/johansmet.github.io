@@ -49,7 +49,7 @@ Responsible for the technical structure of the in-house developed ERP, WMS, CRM 
 
 ### Open Source contributions (2018)
 
-Worked on [FAudio](https://github.com/FNA-XNA/FAudio) - an accuracy-focused XAudio2 reimplementation for open platforms. Contributed DSP implementations of high/low pass filters and reverb which were shipped in the Switch release of [Dust: An Elysian Tail](https://www.nintendo.com/games/detail/dust-an-elysian-tail-switch). Wrote the COM wrapper to allow FAudio to be tested with native Windows software without source code changes.
+Worked on [FAudio](https://github.com/FNA-XNA/FAudio) - an accuracy-focused XAudio2 reimplementation for open platforms. Contributed DSP implementations of high/low pass filters and reverb which were shipped in the Switch release of [Dust: An Elysian Tail](https://www.nintendo.com/games/detail/dust-an-elysian-tail-switch). Wrote the COM wrapper to allow FAudio to be tested with native Windows software without source code changes. ([Overview of Open Source contributions](/resume/opensource))
 
 ## Education
 - Graduaat Toegepaste Informatica / Bachelor in Computer Sciences (1996 - 1999)<br>Karel De Grote Hogeschool, Antwerpen
