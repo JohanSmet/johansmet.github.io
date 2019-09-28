@@ -2,6 +2,8 @@
 title: Kinect Webcam
 layout: single
 classes: wide
+excerpt: A DirectShow-filter that turns your Kinect into a webcam. Works with Kinect for Windows v2 and the original Kinect for Windows.
+order: 10
 sidebar:
   - text: Visit the project's repo at
   - text: <i class="fab fa-fw fa-github" aria-hidden="true"></i> [GitHub](https://github.com/JohanSmet/kinect_webcam)
