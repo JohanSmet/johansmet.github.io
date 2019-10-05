@@ -9,7 +9,7 @@ I'm a software developer with a passion for problem solving. My goal is to build
 
 I enjoy the entire process of building software solutions but I am at my best with the more technical aspects. I like creating structure out of nothing or determining the minimal set of required changes to adapt a existing solution to meet new demands. 
 
-A single page PDF version of the resume is available [here]({{ site.url }}{{ site.baseurl }}/assets/docs/resume_johansmet_20181114.pdf).
+A single page PDF version of the resume is available [here]({{ site.url }}{{ site.baseurl }}/assets/docs/resume_johansmet_20191005.pdf).
 
 ## Highlights
 
