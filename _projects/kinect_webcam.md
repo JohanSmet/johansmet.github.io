@@ -15,9 +15,9 @@ A DirectShow-filter that turns your Kinect into a webcam. Works with Kinect for 
 
 
 ## Background
-In the summer of 2014 I was following a Massive Open Online Course which required webcam verification when my trusty (read: old) Logitech webcam broke. At the time I was also messing around with a Kinect for Windows v2 so I thought why not try to use its camera as a webcam. Not because I'm cheap (I promise) but it seemed like a fun little project.
+In the summer of 2014 I was following a Massive Open Online Course which required webcam verification when my trusty (read: old) Logitech webcam broke. At the time I was also messing around with a Kinect for Windows v2,, so I thought why not try to use its camera as a webcam. Not because I'm cheap (I promise) but it seemed like a fun little project.
 
-Turns out it's not that little a project when you don't have any prior experience with DirectShow (who would have guessed) . But the basics were working pretty soon, over the next few weeks of spare time I fleshed it out more. October and November were filled with other spare time work and then the holidays happened. But now finally at the dawn of 2015 I've cleaned it up and packaged it for public release.
+Turns out it's not that little a project when you don't have any prior experience with DirectShow (who would have guessed). But the basics were working pretty soon, over the next few weeks of spare time I fleshed it out more. October and November were filled with other spare time work, and then the holidays happened. But now finally at the dawn of 2015 I've cleaned it up and packaged it for public release.
 
 
 ## Features
@@ -29,7 +29,7 @@ Turns out it's not that little a project when you don't have any prior experienc
     - Only works when the output resolution is smaller than the native resolution of the camera.
 - Background removal ("green screen")
 	- Removes the background to only show people detected by the Kinect sensor
-    - More a gimmick than a feature: partly due to the lower resolution of the depth sensor the resulting image quality is less than ideal.
+    - More a gimmick than a feature: partly due to the lower resolution of the depth sensor, the resulting image quality is less than ideal.
 - Includes simple application to manage the settings of the filter
 
 
@@ -47,7 +47,7 @@ It does not work with Internet Explorer on Windows 8+. Most probably because Dir
 
 
 ## Installation and usage instructions
-1. Download the ZIP-archive for your platform and intented application
+1. Download the ZIP-archive for your platform and intended application
 	- use the 32-bit version even on a 64-bit Windows when the intended host application is 32-bit (e.g. Firefox).
 2. Extract the ZIP-archive to a local directory
 3. Run kw_config.exe with administrator privileges by right-clicking and choosing "Run as Administrator"
@@ -68,12 +68,12 @@ The source code is available under the MIT-license on [GitHub](https://github.co
 
 ### Requirements
 - CMake : version 2.8 or newer
-- Visual Studio 2013 : developed with the Professional but Express will most like work as well. Older versions will probably not work because the code uses some C++11 features.
+- Visual Studio 2013 : developed with the Professional, but Express will most like work as well. Older versions will probably not work because the code uses some C++11 features.
 
 ### Dependencies
 - The Microsoft DirectShow Base Classes (strmbase)
 	- extract to a "strmbase" subdirectory of the source root
 	- more information [here](http://msdn.microsoft.com/en-us/library/windows/desktop/dd407279%28v=vs.85%29.aspx)
 - OpenCV : tested with version 3.0.0-beta
-	- extract to a "opencv" subdirectory of the source root
+	- extract to an "opencv" subdirectory of the source root
 
