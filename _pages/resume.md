@@ -25,10 +25,10 @@ A single page PDF version of the resume is available [here]({{ site.url }}{{ sit
 
 ### Development Tool and Environments
 - Vi-editor and derivatives
-- Visual Studio 6 – 2017, Visual Studio Code
-- Source Control Management : Subversion, Mercurial, Git
+- Visual Studio 6 – 2019, Visual Studio Code
+- Source Control Management : Git, Mercurial, Subversion, CVS
 - Build systems : CMake, SCons, Gnu Make
-- Developed applications on/for Windows (NT – 8.1), Solaris, Linux, MacOS X, iOS and Android
+- Developed applications on/for Windows (NT – 10), Solaris, Linux, MacOS X, iOS and Android
 
 ### Technologies used in production software
 
@@ -44,10 +44,10 @@ A single page PDF version of the resume is available [here]({{ site.url }}{{ sit
 - French : basic
 
 ## Experience
-### Software Developer/Analyst at Cock's Vleeswaren nv, Sint-Niklaas (1999 - 2017)
+### Software Developer/Analyst at Cock's Vleeswaren nv, Sint-Niklaas (1999-2017)
 Responsible for the technical structure of the in-house developed ERP, WMS, CRM and e-commerce portal and interfaces to external systems (weighing scales and barcode scanners, production lines, PLC's and pseudo real-time synchronization with a semi-automated warehouse. ([View selection of projects at Cock's Vleeswaren](/resume/cocks-projects))
 
-### Open Source contributions (2018)
+### Open Source contributions (2018 - present)
 
 Worked on [FAudio](https://github.com/FNA-XNA/FAudio) - an accuracy-focused XAudio2 reimplementation for open platforms. Contributed DSP implementations of high/low pass filters and reverb which were shipped in the Switch release of [Dust: An Elysian Tail](https://www.nintendo.com/games/detail/dust-an-elysian-tail-switch). Wrote the COM wrapper to allow FAudio to be tested with native Windows software without source code changes. ([Overview of Open Source contributions](/resume/opensource))
 
