@@ -49,7 +49,7 @@ Speed of execution is also a secondary concern, ease of implementation and maint
 I wanted a debugger-like UI that could easily be used be third-parties to check out the project. Compiling the ShaderSim library to WebAssembly with Emscripten allows me to keep all dependencies on the build side. At the client side, you only need a modern browser. And it provided a nice excuse to try out Emscripten, something I hadn't come across earlier.
 
 #### Implementing low-level primitives ourselves.
-To keep the external dependencies to a minimum, I decided to implement the simple containers used in the project myself. Naturally I first looked at the alternatives, but the number of available C libraries seemed too complicated for my purposes. At the moment there are two containers in the project: a dynamic array and an associative container using open addressing with linear probing.
+To keep the external dependencies to a minimum, I decided to implement the simple containers used in the project myself. Naturally, I first looked at the alternatives, but the number of available C libraries seemed too complicated for my purposes. At the moment there are two containers in the project: a dynamic array and an associative container using open addressing with linear probing.
 
 
 ## Plans for the future

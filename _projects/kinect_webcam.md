@@ -15,7 +15,7 @@ A DirectShow-filter that turns your Kinect into a webcam. Works with Kinect for 
 
 
 ## Background
-In the summer of 2014 I was following a Massive Open Online Course which required webcam verification when my trusty (read: old) Logitech webcam broke. At the time I was also messing around with a Kinect for Windows v2,, so I thought why not try to use its camera as a webcam. Not because I'm cheap (I promise) but it seemed like a fun little project.
+In the summer of 2014 I was following a Massive Open Online Course which required webcam verification when my trusty (read: old) Logitech webcam broke. At the time I was also messing around with a Kinect for Windows v2, so I thought why not try to use its camera as a webcam. Not because I'm cheap (I promise) but it seemed like a fun little project.
 
 Turns out it's not that little a project when you don't have any prior experience with DirectShow (who would have guessed). But the basics were working pretty soon, over the next few weeks of spare time I fleshed it out more. October and November were filled with other spare time work, and then the holidays happened. But now finally at the dawn of 2015 I've cleaned it up and packaged it for public release.
 

@@ -33,13 +33,13 @@ Unfortunately, the way Logisim stores the circuits makes it hard to load them wi
 
 Most of the time on this project was spent working on lsim_gui . I ended rewriting LSim to better segregate the construction/editing of the circuit and the simulation itself. The simulation engine itself underwent a few major revisions.
 
-Along the way, I not only learned a lot about digital (I now have a basic understanding of how flip-flops and binary counters work) but also about the way digital circuits work electrically to be able to simulate them properly. It might have been a strange and long winding path to take, but I learned quite a bit and had a lot of fun along the way.
+Along the way, I not only learned a lot about digital (I now have a basic understanding of how flip-flops and binary counters work) but also about the way digital circuits work electrically to be able to simulate them properly. It might have been a strange and long, winding path to take, but I learned quite a bit and had a lot of fun along the way.
 
 ## Current status
 
 As it stands now (in September 2019) LSim is able to simulate basic digital circuits (e.g. flip-flops and counters) and more complex circuits. As an example, LSim includes a basic 8-bit computer (inspired by Ben Eater's work [here](https://eater.net/8bit)). It's probably capable of more, but the UI is a major limiting factor. 
 
-With the Python bindings it's not hard to write test scripts for the designed circuits. It's also possible to procedurally generated complex repetitive circuits (e.g. ROMs) with a Python-script.
+With the Python bindings, it's not hard to write test scripts for the designed circuits. It's also possible to procedurally generated complex repetitive circuits (e.g. ROMs) with a Python-script.
 
 LSim runs on multiple platforms. It compiles natively for modern Windows, Linux and MacOS X machines. A WebAssembly-version can run straight in the browser. You can try a demo over [here](http://justcode.be/lsim). The demo is fully functional except for saving changes.
 
@@ -56,7 +56,7 @@ But I didn't want to write (and compile) the test cases for circuits, so adding 
 
 I've used Dear ImGui before for small test programs and I fell in love with a bit. The immediate mode design makes it easy to thrown together a quick UI without too much fuss. And using SDL2 as the backend ensures it runs on multiple platforms, including a browser with WebAssembly.
 
-The UI wasn't the main focus at the beginning,, so I didn't want to add a dependency on a big UI library. I feel like it worked out okay, as long as you don't mind a non-platform native look-and-feel.
+The UI wasn't the main focus at the beginning, so I didn't want to add a dependency on a big UI library. I feel like it worked out okay, as long as you don't mind a non-platform native look-and-feel.
 
 #### Single object with dynamic functions in favor of an inheritance hierarchy
 
