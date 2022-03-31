@@ -1,8 +1,10 @@
 ---
 title: ShaderSim
 classes: wide
-excerpt: An instruction-level simulator for GPU shaders, written in C99.
+excerpt: <b>Personal Open Source Project</b><br/> An instruction-level simulator for GPU shaders, written in C99.
 order: 20
+header:
+  teaser: /assets/images/project_teasers/shader_sim_th.png
 sidebar:
   - text: Visit the project's repo at
   - text: <i class="fab fa-fw fa-github" aria-hidden="true"></i> [GitHub](https://github.com/JohanSmet/shader_sim)

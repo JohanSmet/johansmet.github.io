@@ -1,8 +1,10 @@
 ---
 title: LSim
 classes: wide
-excerpt: LSim (Logical SIMulator) is a tool to simulate digital logic circuits.
+excerpt: <b>Personal Open Source Project</b><br/>LSim (Logical SIMulator) is a tool to simulate digital logic circuits.
 order: 30
+header:
+  teaser: /assets/images/project_teasers/lsim_th.png
 sidebar:
   - text: Visit the project's repo at
   - text: <i class="fab fa-fw fa-github" aria-hidden="true"></i> [GitHub](https://github.com/JohanSmet/lsim)

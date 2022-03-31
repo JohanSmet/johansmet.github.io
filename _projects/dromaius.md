@@ -1,8 +1,10 @@
 ---
 title: Dromaius
 classes: wide
-excerpt: Dromaius, a hobby project emulator of retro hardware.
+excerpt: <b>Personal Open Source Project</b><br/>Dromaius, a hobby project emulator of retro hardware.
 order: 40
+header:
+  teaser: assets/images/project_teasers/dromaius_th.png
 sidebar:
   - text: Visit the project's repo at
   - text: <i class="fab fa-fw fa-github" aria-hidden="true"></i> [GitHub](https://github.com/JohanSmet/dromaius)
