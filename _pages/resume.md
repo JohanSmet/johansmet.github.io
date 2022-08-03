@@ -48,8 +48,10 @@ A single page PDF version of the resume is available [here]({{ site.url }}{{ sit
 Responsible for the technical structure of the in-house developed ERP, WMS, CRM and e-commerce portal and interfaces to external systems (weighing scales and barcode scanners, production lines, PLC's and pseudo real-time synchronization with a semi-automated warehouse. ([View selection of projects at Cock's Vleeswaren](/resume/cocks-projects))
 
 ### Open Source contributions (2018 - present)
-
 Worked on [FAudio](https://github.com/FNA-XNA/FAudio) - an accuracy-focused XAudio2 reimplementation for open platforms. Contributed DSP implementations of high/low pass filters and reverb which were shipped in the Switch release of [Dust: An Elysian Tail](https://www.nintendo.com/games/detail/dust-an-elysian-tail-switch). Wrote the COM wrapper to allow FAudio to be tested with native Windows software without source code changes. ([Overview of Open Source contributions](/resume/opensource))
+
+### Developer at Neopica BV (2022 - present)
+Development using C++.
 
 ## Education
 - Graduaat Toegepaste Informatica / Bachelor in Computer Sciences (1996 - 1999)<br>Karel De Grote Hogeschool, Antwerpen
