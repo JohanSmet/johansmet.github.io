@@ -1,7 +1,7 @@
 ---
 classes: wide
 title: Know your tools
-excerpt: Story time
+excerpt: Story time, and thoughts about software development.
 ---
 
 Oh my, it has been a while since I've written anything for this blog. I should do something about that... time for a story.
@@ -15,6 +15,9 @@ A week later, I needed to repeat the procedure, and now unexpectedly, it did not
 Fast forward a few weeks, and I had the same problem again. Everything was hooked up in the same manner as earlier, but the car did not start. This time I decided to investigate. I measured the voltage between the positive terminal in the fuse box and the chassis, with the battery pack connected; it was about 8V. No wonder the car would not start. I disconnected the battery pack and measured its voltage, giving a result of 13V. Hmm, maybe a bad connection somewhere? I beeped out the connector cable, and it was fine. I connected the positive lead and measured the voltage between the terminal and the negative lead: 8V. Wait, what? I touched my multimeter probe to the positive connector, and the voltage reading jumped to 13V. Ok.
 
 The positive terminal in the fuse box is on the edge of the box, and the copper is only reachable on one side. The clamp of the battery pack has copper on both prongs, but it turns out that only one side is connected to the cable, and the prongs are not electrically connected to each other. So it only works when the connector is on the terminal in one way but not when it is reversed.
+
+![The aformentioned clamps]({{ site.url }}{{ site.baseurl }}/assets/images/various/charger_clamps.jpg){: .align-center}
+<figcaption class="text-center">The clamps in question.</figcaption>
 
 And now, that brings me to the moral of the story: I would have saved myself a lot of trouble if I had checked my assumptions about the cable and connector of the battery pack. Because there was copper on both sides of the clamp, I assumed both would be connected to the wire. Not an unreasonable assumption, but still, it appears, a wrong one.
 
