@@ -26,7 +26,7 @@ author:
           icon: "fab fa-brands fa-square-bluesky"
           url: "https://bsky.app/profile/johansmet.bsky.social"
         - label: "YouTube"
-          icon: "fab fa-fw fa-youtube"
+          icon: "fab fa-brands fa-square-youtube"
           url: "https://www.youtube.com/channel/UCUkXCU_GZgW2s4jbmHNkCcg"
         - label: "GitHub"
           icon: "fab fa-fw fa-github"
